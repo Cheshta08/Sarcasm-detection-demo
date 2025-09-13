@@ -48,13 +48,12 @@ The interface supports both **text input** and **audio upload**, simulating the 
 ## 🛠️ Installation & Usage  
 
 1. **Clone the repo**  
-   ```
-   git clone https://github.com/Cheshta08/Sarcasm-detection-demo.git
-
-   ```
-   ```
-   cd Sarcasm-detection-demo
-   ```
+```
+git clone https://github.com/Cheshta08/Sarcasm-detection-demo.git
+```
+```
+cd Sarcasm-detection-demo
+```
 2. **Run the backend**
 
 ```
@@ -65,10 +64,13 @@ python app.py
 
 Open index.html in your browser.
 
+---
+
 ## 📦 Model File
 The trained LSTM model (lstm_model.keras) is large in size.
 
 GitHub has a 100MB per file limit.
+
 
 
 
