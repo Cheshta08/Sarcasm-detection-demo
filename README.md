@@ -1,7 +1,7 @@
 # Sarcasm Detector Demo  
 
 A web-based demo that showcases how our sarcasm detection model works.  
-The interface supports both **text input** and **audio upload**, simulating the end-to-end flow of detecting sarcasm using machine learning.  
+The interface supports both **text input** and **audio upload**, simulating the end-to-end flow of detecting sarcasm using deep learning (LSTM model).  
 
 ---
 
@@ -69,6 +69,7 @@ Open index.html in your browser.
 The trained LSTM model (lstm_model.keras) is large in size.
 
 GitHub has a 100MB per file limit.
+
 
 
 
