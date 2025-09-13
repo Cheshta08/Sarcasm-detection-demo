@@ -28,7 +28,7 @@ The interface supports both **text input** and **audio upload**, simulating the 
 ├── app.py              # Backend (Flask/FastAPI) integration point for ML model
 ├── lstm_model.keras    # Trained sarcasm detection model (large file)
 └── README.md           # Documentation
-
+```
 ---
 
 ## ⚡ How It Works  
@@ -69,4 +69,5 @@ Open index.html in your browser.
 The trained LSTM model (lstm_model.keras) is large in size.
 
 GitHub has a 100MB per file limit.
+
 
