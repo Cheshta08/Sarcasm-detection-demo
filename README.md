@@ -55,13 +55,13 @@ The interface supports both **text input** and **audio upload**, simulating the 
    ```
    cd Sarcasm-detection-demo
    ```
-Run the backend
+2. **Run the backend**
 
 ```
 python app.py
 ```
 
-Open the frontend
+3. **Open the frontend**
 
 Open index.html in your browser.
 
@@ -69,6 +69,7 @@ Open index.html in your browser.
 The trained LSTM model (lstm_model.keras) is large in size.
 
 GitHub has a 100MB per file limit.
+
 
 
 
