@@ -65,9 +65,10 @@ Open the frontend
 
 Open index.html in your browser.
 
-📦 Model File
+## 📦 Model File
 The trained LSTM model (lstm_model.keras) is large in size.
 
 GitHub has a 100MB per file limit.
+
 
 
