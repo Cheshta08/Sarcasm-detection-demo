@@ -21,12 +21,13 @@ The interface supports both **text input** and **audio upload**, simulating the 
 ---
 
 ## 📂 Project Structure  
-├── index.html # Main UI structure
-├── script.js # Frontend logic for inputs, loading, and results
-├── style.css # Styling for the app
-├── app.py # Backend (Flask/FastAPI) integration point for ML model
-├── lstm_model.keras # Trained sarcasm detection model (large file)
-└── README.md # Documentation
+```bash
+├── index.html          # Main UI structure
+├── script.js           # Frontend logic for inputs, loading, and results
+├── style.css           # Styling for the app
+├── app.py              # Backend (Flask/FastAPI) integration point for ML model
+├── lstm_model.keras    # Trained sarcasm detection model (large file)
+└── README.md           # Documentation
 
 ---
 
@@ -68,3 +69,4 @@ Open index.html in your browser.
 The trained LSTM model (lstm_model.keras) is large in size.
 
 GitHub has a 100MB per file limit.
+
