@@ -1,6 +1,6 @@
 # Sarcasm Detector Demo  
 
-A web-based demo that showcases how our sarcasm detection model works.  
+A web-based demo that shows how our sarcasm detection model works.  
 The interface supports both **text input** and **audio upload**, simulating the end-to-end flow of detecting sarcasm using deep learning (LSTM model).  
 
 ---
@@ -10,11 +10,11 @@ The interface supports both **text input** and **audio upload**, simulating the 
   - ✍️ Enter text directly  
   - 🎙️ Upload audio files (≤ 1MB)  
 - **Interactive UI**  
-  - Choice between text and audio  
-  - Animated **loading progress bar** with step-by-step process (`Pre-Processing → Analyzing → Detecting Sarcasm`)  
+  - Choice between text and audio inputs 
+  - Animated **loading progress bar** with step-by-step process showing the different stages(`Pre-Processing → Analyzing → Detecting Sarcasm`)  
 - **Result Display**  
-  - Shows predicted output (e.g., *Sarcastic* or *Not Sarcastic*)  
-  - Displays accuracy score  
+  - Shows the predicted output (e.g., *Sarcastic* or *Not Sarcastic*)  
+  - Displays accuracy score  for predicted result
 - **Process Flow Toggle**  
   - Option to show/hide model’s working steps  
 
@@ -34,7 +34,7 @@ The interface supports both **text input** and **audio upload**, simulating the 
 ## ⚡ How It Works  
 1. Choose **Text** or **Audio** input.  
 2. Enter your sentence or upload an audio file.  
-3. Click **Submit** → the app simulates pre-processing, analysis, and sarcasm detection.  
+3. Click **Submit**, and the app will walk you through the steps: Pre-processing → Analyzing → Detecting Sarcasm before showing final result.
 4. Results are displayed with prediction and accuracy.  
 
 ---
@@ -62,17 +62,15 @@ python app.py
 
 3. **Open the frontend**
 
-Open index.html in your browser.
+Open index.html in your browser to launch the demo interface.
 
 ---
 
 ## 📦 Model File
-The trained LSTM model (lstm_model.keras) is large in size.
+⚠️ The trained LSTM model file (lstm_model.keras) is too large for GitHub’s 100MB limit. 
 
-GitHub has a 100MB per file limit.
-
-
+You may need to download it separately or use Git LFS (Large File Storage) if you want to run the full demo locally.
 
 
-
-
+## Contribution
+- Edit by Priyanshi Modi
